@@ -2,7 +2,7 @@
 step 1. Install environment for pytorch training
 ```bash
 conda activate Whisper-Finetune
-audio_path=/data01/home/shuchangyong/projects/big_model/whisper-pyannote/test_16000/demo/Hi0Fp_nZSZ0.wav
+audio_path=./docs/demo/Hi0Fp_nZSZ0.wav
 model_name=BELLE-2/Belle-distilwhisper-large-v2-zh
 model_name=BELLE-2/Belle-whisper-large-v2-zh
 ```
