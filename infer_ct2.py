@@ -22,7 +22,7 @@ args = parser.parse_args()
 print_arguments(args)
 
 # 检查模型文件是否存在
-assert os.path.exists(args.model_path), f"模型文件{args.model_path}不存在"
+# assert os.path.exists(args.model_path), f"模型文件{args.model_path}不存在"
 # 加载模型
 if args.use_gpu:
     if not args.use_int8:
